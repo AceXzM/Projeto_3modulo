@@ -1,0 +1,32 @@
+/* =========================================================================
+   style.css
+   RUBRICA (Tech Forge): "Comunicação Técnico Visual do Dashboard" —
+   layout coerente, limpo e com poluição visual mínima.
+   ========================================================================= */
+
+:root {
+    --cor-primaria: #2f3e9e;
+    --cor-fundo: #f5f6fa;
+}
+
+body {
+    background-color: var(--cor-fundo);
+}
+
+#cards-resumo .card {
+    border: none;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+
+.card-indicador .valor {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--cor-primaria);
+}
+
+.mensagem-vazia {
+    text-align: center;
+    color: #888;
+    padding: 2rem 0;
+}
