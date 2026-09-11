@@ -1,0 +1,9 @@
+body { background: #f5f7fb; }
+.card { border: 0; }
+.metric-card .card-body { display:flex; flex-direction:column; gap:.25rem; }
+.metric-card span { color:#6c757d; font-size:.9rem; }
+.metric-card strong { font-size:1.6rem; }
+.card-header { background:#fff; }
+.table th { white-space:nowrap; }
+section { scroll-margin-top: 80px; }
+.action-btns { white-space:nowrap; }
